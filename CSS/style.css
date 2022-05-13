@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #FFFFFF
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.left_red_line {
+    width: 50px;
+    background: #AF2D46;
+}
+
+.left_red_line>p {
+    display: block;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 31px;
+    color: #F68D8D;
+    transform: translate(20%, 600%) rotate(-90deg);
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+/*      Колонка 1      */
+
+.column_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.column_1_top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 59px;
+    padding-bottom: 18px;
+}
+
+.pointer {
+    transform: translate(-20px, 0);
+}
+
+.column_1 p:first-child {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 112.5%;
+    color: #343434;
+}
+
+.column_1 p:last-child {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 112.5%;
+    color: #AF2D46;
+}
+
+.column_1_map {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 18px;
+}
+
+
+/*      Колонка 2      */
+
+.column_2 {
+    width: 100%;
+}
+
+.column_2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.column_2_phone {
+    display: flex;
+    width: 100%;
+    padding-top: 59px;
+    padding-bottom: 14px;
+}
+
+.column_2_text {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+
+.column_2 ul {
+    list-style: none;
+}
+
+.column_2 li a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 112.5%;
+    color: #353535;
+    text-decoration: none;
+}
+
+.column_2_text_phone li:nth-child(n+2) {
+    margin-top: 7px;
+}
+
+.column_2 span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 85.5%;
+    color: #353535;
+}
+
+.mail {
+    transform: translate(-20px, 0);
+}
+
+.column_2_mail {
+    display: flex;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.clock {
+    transform: translate(-20px, 5px);
+}
+
+.column_2_clock {
+    display: flex;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+#holiday {
+    color: #AF2D46;
+}
+
+
+/*      Колонка 3      */
+
+.column_3 {
+    width: 100%;
+}
