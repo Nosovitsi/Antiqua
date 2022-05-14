@@ -44,6 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-left: 10px;
 }
 
 .column_1_top {
@@ -54,7 +55,10 @@ body {
     padding-bottom: 18px;
 }
 
-.pointer {
+.pointer,
+.mail,
+.phone,
+.insta {
     transform: translate(-20px, 0);
 }
 
@@ -79,6 +83,12 @@ body {
     padding-top: 18px;
 }
 
+.contact_info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 
 /*      Колонка 2      */
 
@@ -90,6 +100,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-left: 30px;
+    border: 1px solid rgb(128, 0, 49);
 }
 
 .column_2_phone {
@@ -109,7 +121,8 @@ body {
     list-style: none;
 }
 
-.column_2 li a {
+.column_2 li a,
+p {
     font-weight: 700;
     font-size: 16px;
     line-height: 112.5%;
@@ -128,11 +141,8 @@ body {
     color: #353535;
 }
 
-.mail {
-    transform: translate(-20px, 0);
-}
-
-.column_2_mail {
+.column_2_mail,
+.column_2_clock {
     display: flex;
     width: 100%;
     padding-top: 14px;
@@ -143,13 +153,6 @@ body {
     transform: translate(-20px, 5px);
 }
 
-.column_2_clock {
-    display: flex;
-    width: 100%;
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-
 #holiday {
     color: #AF2D46;
 }
@@ -158,5 +161,49 @@ body {
 /*      Колонка 3      */
 
 .column_3 {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+}
+
+.column_3_top {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding-top: 59px;
+    padding-bottom: 18px;
+}
+
+.column_3_poligraphic {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.column_3_text {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+
+.column_3 ul {
+    list-style: none;
+}
+
+.column_3 li a,
+p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 112.5%;
+    color: #353535;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .content {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+    }
 }
